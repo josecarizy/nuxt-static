@@ -8,16 +8,6 @@
       <h2 class="subtitle">
         My gnarly Nuxt.js project
       </h2>
-      <div class="links">
-        <nuxt-link
-          v-for="post in posts"
-          :to="{name: 'posts-id', params: {id: post.id}}"
-          :key="post.id"
-          class="button--grey"
-        >
-          {{post.title}}
-        </nuxt-link>
-      </div>
     </div>
   </section>
 </template>
