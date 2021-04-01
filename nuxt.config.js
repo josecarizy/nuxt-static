@@ -1,7 +1,7 @@
 const pkg = require('./package')
 import axios from 'axios'
 module.exports = {
-  mode: 'universal',
+  target: 'static',
 
   generate: {
     async routes () {
